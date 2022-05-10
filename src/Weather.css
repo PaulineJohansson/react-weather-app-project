@@ -1,17 +1,20 @@
 .Weather {
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid #dadde1;
-  color: rgb(135, 135, 135);
+  color: #6c567b;
   padding: 16px;
   margin: 30px auto;
   border-radius: 4px;
+  background-color: #f8b195;
+  box-shadow: 4px 4px 20px;
 }
 
 .Weather h1 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 29px;
   margin: 20px 0 0 0;
+  color: #c06c84;
 }
 
 .Weather ul {
@@ -57,4 +60,9 @@
   line-height: 1;
   top: -34px;
   margin-left: 5px;
+}
+
+#searchButton {
+  color: #f67280;
+  background-color: #6c567b;
 }
